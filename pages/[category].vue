@@ -66,7 +66,8 @@ definePageMeta({
           <li v-for="item in section.sectionItems" :key="item.itemTitle">
             <div>
               <h4 class="text-lg font-bold uppercase text-accent">{{ item.itemTitle }}</h4>
-              <p class="text-primary" v-if="item.itemPrice" v-html="`$ ${item.itemPrice}`"></p>
+              <p class="text-primary" v-if="item.itemPrice" v-html="item.itemPrice"></p>
+              <!-- <p class="text-primary" v-if="item.itemPrice" v-html="`$ ${item.itemPrice}`"></p> -->
               <p v-if="item.itemDescription" v-html="item.itemDescription"></p>
             </div>
           </li>
