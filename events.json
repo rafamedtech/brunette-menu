@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "cover": "../assets/images/boleros.png"
+    "cover": "https://i.imgur.com/jmjBfHQ.png"
   },
   {
     "id": 2,
-    "cover": "../assets/images/birthday.png"
+    "cover": "https://i.imgur.com/FEwg3yV.png"
   },
   {
     "id": 3,
-    "cover": "../assets/images/fathers.jpg"
+    "cover": "https://i.imgur.com/5Mu7oZB.jpg"
   }
 ]
