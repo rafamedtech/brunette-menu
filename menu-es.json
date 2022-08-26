@@ -1,0 +1,1067 @@
+[
+  {
+    "category": "desayunos",
+    "cover": "https://geqogioegammsiznrksj.supabase.co/storage/v1/object/sign/menu/categories/desayunos.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtZW51L2NhdGVnb3JpZXMvZGVzYXl1bm9zLnBuZyIsImlhdCI6MTY2MTE5MTI5NCwiZXhwIjoxOTc2NTUxMjk0fQ.U8mC8Hx6PnSrNXh8TBSwXa_cxWtGE4k6rstMNsN-t78&t=2022-08-22T18%3A01%3A34.285Z",
+    "sections": [
+      {
+        "sectionTitle": "Detox",
+        "sectionDescription": "Algo rico y ligero",
+        "cover": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Jugo Naranja",
+            "itemDescription": "",
+            "itemPrice": "$65.00"
+          },
+          {
+            "itemTitle": "Jugo Verde",
+            "itemDescription": "",
+            "itemPrice": "$65.00"
+          },
+          {
+            "itemTitle": "Jugo Naranja/Betabel",
+            "itemDescription": "",
+            "itemPrice": "$65.00"
+          },
+          {
+            "itemTitle": "Smoothie Frutos Rojos",
+            "itemDescription": "",
+            "itemPrice": "$85.00"
+          },
+          {
+            "itemTitle": "Ensalada de Frutas",
+            "itemDescription": "Frutas de temporada y queso cottage",
+            "itemPrice": "$165.00"
+          },
+          {
+            "itemTitle": "Bowl de Avena",
+            "itemDescription": "Con chia y fresas",
+            "itemPrice": "$120.00"
+          },
+          {
+            "itemTitle": "Pancakes de Avena",
+            "itemDescription": "Acompañado de fruta de temporada",
+            "itemPrice": "$140.00"
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Huevos",
+        "sectionDescription": "Para iniciar bien el dia",
+        "cover": "https://images.pexels.com/photos/588776/pexels-photo-588776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Huevos revueltos",
+            "itemDescription": "Con jamon, tocino o chorizo",
+            "itemPrice": "$155.00"
+          },
+          {
+            "itemTitle": "Huevos ahogados",
+            "itemDescription": "Con aguacate, frijoles del chef y queso panela",
+            "itemPrice": "$165.00"
+          },
+          {
+            "itemTitle": "Huevos rancheros",
+            "itemDescription": "Sobre tortilla frita, salsa ranchera y frijoles del chef",
+            "itemPrice": "$155.00"
+          },
+          {
+            "itemTitle": "Huevos con machaca",
+            "itemDescription": "Con frijoles del chef, papas de la casa y quesadilla de harina",
+            "itemPrice": "$235.00"
+          },
+          {
+            "itemTitle": "Huevos vegetarianos",
+            "itemDescription": "Huevos revueltos con espinacas, cebolla y morron",
+            "itemPrice": "$140.00"
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Omelette",
+        "sectionDescription": "Rico y tradicional",
+        "cover": "https://images.pexels.com/photos/6529924/pexels-photo-6529924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Vegetariano",
+            "itemDescription": "Relleno de espinacas, champinones, cebolla y morron",
+            "itemPrice": "$165.00"
+          },
+          {
+            "itemTitle": "Mar y tierra",
+            "itemDescription": "Relleno de arrachera y camaron, banado en salsa de la casa",
+            "itemPrice": "$195.00"
+          },
+          {
+            "itemTitle": "El chilaquil",
+            "itemDescription": "Rellenos de chilaquiles de mole poblano",
+            "itemPrice": "$175.00"
+          },
+          {
+            "itemTitle": "La chicharronera",
+            "itemDescription": "Relleno de chicharron prensado en salsa roja",
+            "itemPrice": "$185.00"
+          },
+          {
+            "itemTitle": "",
+            "itemDescription": "* Todos acompañados de frijol del chef y papas de la casa",
+            "itemPrice": ""
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Especiales Brunette",
+        "sectionDescription": "Pura pasion",
+        "cover": "https://images.pexels.com/photos/2662875/pexels-photo-2662875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Arrachera Brunette",
+            "itemDescription": "230gr de arrachera, 2 huevos, papas de la casa y chilaquiles",
+            "itemPrice": "$275.00"
+          },
+          {
+            "itemTitle": "El del ingeniero",
+            "itemDescription": "Carne asada, 2 huevos, chilaquiles, frijol, guacamole, queso panela asado y quesadilla",
+            "itemPrice": "$245.00"
+          },
+          {
+            "itemTitle": "Enchilado",
+            "itemDescription": "2 huevos sobre enchiladas de mole, frijol y papas de la casa",
+            "itemPrice": "$230.00"
+          },
+          {
+            "itemTitle": "Don Luis",
+            "itemDescription": "2 huevos, tocino, jamon, papa rallada, y 1 pancake",
+            "itemPrice": "$210.00"
+          },
+          {
+            "itemTitle": "Tamalera",
+            "itemDescription": "2 tamalitos de elote banados en rajas con crema y 2 huevos",
+            "itemPrice": "$225.00"
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Chilaquiles",
+        "sectionDescription": "Los que nunca faltan",
+        "cover": "https://images.pexels.com/photos/10305696/pexels-photo-10305696.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Verdes y rojos",
+            "itemDescription": "",
+            "itemPrice": "Con huevo - $145.00 <br /> Con pollo - $165.00"
+          },
+          {
+            "itemTitle": "De mole",
+            "itemDescription": "",
+            "itemPrice": "Con huevo - $165.00 <br /> Con pollo - $175.00"
+          },
+          {
+            "itemTitle": "De birria",
+            "itemDescription": "",
+            "itemPrice": "$185.00 <br /> Con huevo - $195.00"
+          },
+          {
+            "itemTitle": "",
+            "itemDescription": "*Acompanados de frijoles del chef",
+            "itemPrice": ""
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Los clasicos",
+        "sectionDescription": "Inolvidables",
+        "cover": "https://images.pexels.com/photos/7116796/pexels-photo-7116796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Pancakes (3)",
+            "itemDescription": "Los tradicionales",
+            "itemPrice": "$145.00"
+          },
+          {
+            "itemTitle": "Pancakes zanahoria (3)",
+            "itemDescription": "Con zanahoria rayada, nuez, piña y canelita",
+            "itemPrice": "$175.00"
+          },
+          {
+            "itemTitle": "Pan frances",
+            "itemDescription": "Con fruta de temporada",
+            "itemPrice": "$155.00"
+          },
+          {
+            "itemTitle": "Pan frances Brunette",
+            "itemDescription": "Relleno de queso y fruta de temporada",
+            "itemPrice": "$175.00"
+          },
+          {
+            "itemTitle": "Tabla Arilu",
+            "itemDescription": "4 pz de pancakes, 4 pz waffles y tiras de tocino, para compartir",
+            "itemPrice": "$320.00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "comida",
+    "cover": "https://geqogioegammsiznrksj.supabase.co/storage/v1/object/sign/menu/categories/comida.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtZW51L2NhdGVnb3JpZXMvY29taWRhLnBuZyIsImlhdCI6MTY2MTE5MTMwNiwiZXhwIjoxOTc2NTUxMzA2fQ.OS9rB3fb6Hj2258ACCK8K5Sc21DLgNfL3-1ylZFgHgY&t=2022-08-22T18%3A01%3A47.085Z",
+    "sections": [
+      {
+        "sectionTitle": "Entradas",
+        "sectionDescription": "Mereces iniciar bien",
+        "cover": "https://images.pexels.com/photos/2814828/pexels-photo-2814828.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Queso fundido Brunette",
+            "itemDescription": "Plato de queso fundido, horneado lentamente con una deliciosa porcion de chicharron",
+            "itemPrice": "$170.00"
+          },
+          {
+            "itemTitle": "Guacamole",
+            "itemDescription": "Aguacate limonoso con topping de chicharron",
+            "itemPrice": "$125.00"
+          },
+          {
+            "itemTitle": "Alitas",
+            "itemDescription": "Buffalo o BBQ",
+            "itemPrice": "10pz $165 <br /> 20pz $265"
+          },
+          {
+            "itemTitle": "Boneless",
+            "itemDescription": "Buffalo o BBQ",
+            "itemPrice": "10pz $165 <br /> 20pz $265"
+          },
+          {
+            "itemTitle": "Mini hamburguesas",
+            "itemDescription": "Carne selecta en pan untado con rico aderezo de la casa",
+            "itemPrice": "$165.00"
+          },
+          {
+            "itemTitle": "Nachos real",
+            "itemDescription": "Totopo bañado en salsa de queso, aguacate y coronado con camarones salteados",
+            "itemPrice": "$160.00"
+          },
+          {
+            "itemTitle": "Nacho sencillo",
+            "itemDescription": "",
+            "itemPrice": "$120.00"
+          },
+          {
+            "itemTitle": "Esquite",
+            "itemDescription": "Granos de elote con mantequilla, queso y aderezo bonita",
+            "itemPrice": "$65.00"
+          },
+          {
+            "itemTitle": "Tabla Brunette",
+            "itemDescription": "3 mini hamburguesas, 5 boneless, nachos con queso, 4 quesadillas, 5 alitas, papas en gajo, guacamole y dedos de queso",
+            "itemPrice": "$650.00"
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Sopas y ensaladas",
+        "sectionDescription": "Algo reconfortante",
+        "cover": "https://images.pexels.com/photos/9928322/pexels-photo-9928322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Sopa de tortilla",
+            "itemDescription": "Base de consome de tomate, tortilla frita, aguacate, queso, crema y chile ancho",
+            "itemPrice": "$120.00"
+          },
+          {
+            "itemTitle": "Crema de coliflor ahumada",
+            "itemDescription": "Crema de coliflor ahumada acompañada de pan a las hierbas",
+            "itemPrice": "$130.00"
+          },
+          {
+            "itemTitle": "Ensalada de tomates",
+            "itemDescription": "Tomates aderezados con la vinagreta de la casa y queso mozzarella",
+            "itemPrice": "$165.00"
+          },
+          {
+            "itemTitle": "Ensalada de griega",
+            "itemDescription": "Lechugas mixtas, tomate, cebolla, pepino, aceituna negra y queso feta",
+            "itemPrice": "$160.00"
+          },
+          {
+            "itemTitle": "Ensalade del bosque",
+            "itemDescription": "Lechugas mixtas, fresas, nuez garapiñadas, queso feta y aderezo brunette",
+            "itemPrice": "$165.00 "
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Pastas",
+        "sectionDescription": "Sabores involvidables",
+        "cover": "https://images.pexels.com/photos/5175537/pexels-photo-5175537.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Lasagna Brunette",
+            "itemDescription": "La tradicional lasagna de carne servida en rollo",
+            "itemPrice": "$195.00"
+          },
+          {
+            "itemTitle": "Fetuccini Alfredo",
+            "itemDescription": "Servido con cremosa salsa alfredo",
+            "itemPrice": "$150.00 <br /> Con pollo $220.00 <br /> Con camaron $245.00"
+          },
+          {
+            "itemTitle": "Spaguetti a la bolognesa",
+            "itemDescription": "Pasta con salsa de tomate a la bolognesa",
+            "itemPrice": "$165.00"
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Pizzas",
+        "sectionDescription": "",
+        "cover": "https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Peperoni",
+            "itemDescription": "",
+            "itemPrice": "$180.00"
+          },
+          {
+            "itemTitle": "Queso",
+            "itemDescription": "",
+            "itemPrice": "$170.00"
+          },
+          {
+            "itemTitle": "Margarita",
+            "itemDescription": "Queso, pesto, tomates y albahaca",
+            "itemPrice": "$180.00"
+          },
+          {
+            "itemTitle": "Carnitas",
+            "itemDescription": "",
+            "itemPrice": "$195.00"
+          },
+          {
+            "itemTitle": "La taquera",
+            "itemDescription": "Pa' todos hay, mitad asada y mitad adobada",
+            "itemPrice": "$210.00"
+          },
+          {
+            "itemTitle": "Mar y tierra",
+            "itemDescription": "Arrachera y camaron",
+            "itemPrice": "$235.00"
+          },
+          {
+            "itemTitle": "Brunette",
+            "itemDescription": "De chile relleno de surimi",
+            "itemPrice": "$195.00"
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Mariscos",
+        "sectionDescription": "De lo fresco, lo mejor",
+        "cover": "https://images.pexels.com/photos/2827263/pexels-photo-2827263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Tostadas de cangrejo",
+            "itemDescription": "Cangrejo en escabeche y cremoso de aguacate",
+            "itemPrice": "$145.00"
+          },
+          {
+            "itemTitle": "Atun Brunette",
+            "itemDescription": "Fresco atun marinado en salsas negras",
+            "itemPrice": "$250.00"
+          },
+          {
+            "itemTitle": "Ceviche Tijuas",
+            "itemDescription": "Pescado finamente picado con pepino, cebolla morada y chile verde",
+            "itemPrice": "$185.00"
+          },
+          {
+            "itemTitle": "Ceviche Manchiz",
+            "itemDescription": "Camaron finamente picado en salsa de chamoy",
+            "itemPrice": "$210.00"
+          },
+          {
+            "itemTitle": "Volcan de pescado al pastor",
+            "itemDescription": "Pescado al pastor, cilantro, cebolla y aguacate",
+            "itemPrice": "$135.00"
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Carnes",
+        "sectionDescription": "Al sabor de las brasas",
+        "cover": "https://images.pexels.com/photos/3535383/pexels-photo-3535383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Ribeye (400gr)",
+            "itemDescription": "Acompañado de pure de papa y vegetales",
+            "itemPrice": "$540.00"
+          },
+          {
+            "itemTitle": "Arrachera de la casa (250gr)",
+            "itemDescription": "Arrachera, frijol del chef, guacamole, cebolla y chile asado",
+            "itemPrice": "$325.00"
+          },
+          {
+            "itemTitle": "Carne asada Brunette",
+            "itemDescription": "Carne asada, frijoles, quesadilla, guacamole, chile frito y cebolla asada",
+            "itemPrice": "$265.00"
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Pollos",
+        "sectionDescription": "Siempre rico y ligero",
+        "cover": "https://images.pexels.com/photos/2741458/pexels-photo-2741458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Pollo a la parrilla",
+            "itemDescription": "Con pure de papa y vegetales al pesto",
+            "itemPrice": "$265.00"
+          },
+          {
+            "itemTitle": "Pechuga rellena",
+            "itemDescription": "Pechuga rellena de jamon y queso con pasta a la mantequilla y vegetales al pesto",
+            "itemPrice": "$280.00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "postres",
+    "cover": "https://geqogioegammsiznrksj.supabase.co/storage/v1/object/sign/menu/categories/postre.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtZW51L2NhdGVnb3JpZXMvcG9zdHJlLmpwZyIsImlhdCI6MTY2MTE5MTMxOSwiZXhwIjoxOTc2NTUxMzE5fQ.77Uzo3QW7BCSl1WINvEMzz_178UG6BhvtBT6p9SwNfI&t=2022-08-22T18%3A01%3A59.923Z",
+    "sections": [
+      {
+        "sectionTitle": "Final feliz",
+        "sectionDescription": "",
+        "cover": "https://images.pexels.com/photos/3992131/pexels-photo-3992131.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Pie de manzana",
+            "itemDescription": "Servido caliente acompañado de helado de vainilla",
+            "itemPrice": "$140.00"
+          },
+          {
+            "itemTitle": "Flan de guayaba",
+            "itemDescription": "Con jarabe de piloncillo",
+            "itemPrice": "$115.00"
+          },
+          {
+            "itemTitle": "Crepa Brunette",
+            "itemDescription": "Rellena de crema de limon y fresas con polvo de galletas",
+            "itemPrice": "$155.00"
+          },
+          {
+            "itemTitle": "Helado del dia",
+            "itemDescription": "",
+            "itemPrice": "$65.00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "bebidas",
+    "cover": "https://geqogioegammsiznrksj.supabase.co/storage/v1/object/sign/menu/categories/bebidas.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtZW51L2NhdGVnb3JpZXMvYmViaWRhcy5qcGciLCJpYXQiOjE2NjExOTEzMzEsImV4cCI6MTk3NjU1MTMzMX0.CyOPc1F-kJYI8Yl0MDfV6D5YYDxsejDO2NhCyfWVRgY&t=2022-08-22T18%3A02%3A11.649Z",
+    "sections": [
+      {
+        "sectionTitle": "No alcohol",
+        "sectionDescription": "",
+        "cover": "https://images.pexels.com/photos/544961/pexels-photo-544961.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Sodas",
+            "itemDescription": "",
+            "itemPrice": "$35.00"
+          },
+          {
+            "itemTitle": "Agua mineral Ciel",
+            "itemDescription": "",
+            "itemPrice": "$35.00"
+          },
+          {
+            "itemTitle": "Agua mineral Topo Chico",
+            "itemDescription": "",
+            "itemPrice": "$40.00"
+          },
+          {
+            "itemTitle": "Jugo de naranja",
+            "itemDescription": "",
+            "itemPrice": "$65.00"
+          },
+          {
+            "itemTitle": "Jugo verde",
+            "itemDescription": "",
+            "itemPrice": "$65.00"
+          },
+          {
+            "itemTitle": "Chocomilk",
+            "itemDescription": "",
+            "itemPrice": "$45.00"
+          },
+          {
+            "itemTitle": "Cafe",
+            "itemDescription": "",
+            "itemPrice": "$45.00"
+          },
+          {
+            "itemTitle": "Vaso de leche",
+            "itemDescription": "",
+            "itemPrice": "$30.00"
+          },
+          {
+            "itemTitle": "Smoothie Frutos Rojos",
+            "itemDescription": "",
+            "itemPrice": "$30.00"
+          },
+          {
+            "itemTitle": "Pinada",
+            "itemDescription": "",
+            "itemPrice": "$80.00"
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Cerveza",
+        "sectionDescription": "",
+        "cover": "https://images.pexels.com/photos/667986/pexels-photo-667986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Tecate",
+            "itemDescription": "",
+            "itemPrice": "$45.00"
+          },
+          {
+            "itemTitle": "Bohemia clara",
+            "itemDescription": "",
+            "itemPrice": "$50.00"
+          },
+          {
+            "itemTitle": "Tecate light",
+            "itemDescription": "",
+            "itemPrice": "$45.00"
+          },
+          {
+            "itemTitle": "Bohemia oscura",
+            "itemDescription": "",
+            "itemPrice": "$50.00"
+          },
+          {
+            "itemTitle": "Indio",
+            "itemDescription": "",
+            "itemPrice": "$45.00"
+          },
+          {
+            "itemTitle": "Heineken",
+            "itemDescription": "",
+            "itemPrice": "$50.00"
+          },
+          {
+            "itemTitle": "XX Lager",
+            "itemDescription": "",
+            "itemPrice": "$45.00"
+          },
+          {
+            "itemTitle": "XX Ambar",
+            "itemDescription": "",
+            "itemPrice": "$50.00"
+          },
+          {
+            "itemTitle": "Amstel Ultra",
+            "itemDescription": "",
+            "itemPrice": "$50.00"
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Cerveza Artesanal",
+        "sectionDescription": "",
+        "cover": "https://images.pexels.com/photos/1796698/pexels-photo-1796698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Peanut butter",
+            "itemDescription": "",
+            "itemPrice": "$95.00"
+          },
+          {
+            "itemTitle": "Alesmith.394",
+            "itemDescription": "",
+            "itemPrice": "$95.00"
+          },
+          {
+            "itemTitle": "Alesmith sublime",
+            "itemDescription": "",
+            "itemPrice": "$95.00"
+          },
+          {
+            "itemTitle": "Darkenstein IPA",
+            "itemDescription": "",
+            "itemPrice": "$110.00"
+          },
+          {
+            "itemTitle": "Jambi IPA",
+            "itemDescription": "",
+            "itemPrice": "$110.00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "botellas",
+    "cover": "https://images.pexels.com/photos/2995333/pexels-photo-2995333.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "sections": [
+      {
+        "sectionTitle": "Vinos Casa Magoni",
+        "sectionDescription": "",
+        "cover": "https://images.pexels.com/photos/66636/pexels-photo-66636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Chardonay-Vermentino",
+            "itemDescription": "",
+            "itemPrice": "Botella $520.00"
+          },
+          {
+            "itemTitle": "Rose 2021",
+            "itemDescription": "",
+            "itemPrice": "Botella $1525.00"
+          },
+          {
+            "itemTitle": "Manaz-fiano Viogner 2021",
+            "itemDescription": "",
+            "itemPrice": "Botella $155.00."
+          },
+          {
+            "itemTitle": "Sangiovese-cabernet 2021",
+            "itemDescription": "",
+            "itemPrice": "Botella $525.00"
+          },
+          {
+            "itemTitle": "Sauvig Blanc 2021",
+            "itemDescription": "",
+            "itemPrice": "Botella $540.00"
+          },
+          {
+            "itemTitle": "Merlot Malbec 2020",
+            "itemDescription": "",
+            "itemPrice": "Botella $600.00"
+          },
+          {
+            "itemTitle": "Origen 43 2020",
+            "itemDescription": "",
+            "itemPrice": "Botella $660.00"
+          },
+          {
+            "itemTitle": "Nebbiolo de baja 2019",
+            "itemDescription": "",
+            "itemPrice": "Botella $750.00"
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Vinos L.A. Cetto",
+        "sectionDescription": "",
+        "cover": "https://images.pexels.com/photos/1494410/pexels-photo-1494410.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Chenin Black",
+            "itemDescription": "",
+            "itemPrice": "Botella $330.00"
+          },
+          {
+            "itemTitle": "Zinfandel",
+            "itemDescription": "",
+            "itemPrice": "Botella $350.00"
+          },
+          {
+            "itemTitle": "Petite Sirah",
+            "itemDescription": "",
+            "itemPrice": "Botella $330.00."
+          },
+          {
+            "itemTitle": "Merlot",
+            "itemDescription": "",
+            "itemPrice": "Botella $525.00"
+          },
+          {
+            "itemTitle": "Cabernet Sauvignon",
+            "itemDescription": "",
+            "itemPrice": "Botella $350.00"
+          },
+          {
+            "itemTitle": "Nebiolo",
+            "itemDescription": "",
+            "itemPrice": "Botella $490.00"
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Tequila",
+        "sectionDescription": "",
+        "cover": "https://images.pexels.com/photos/5791650/pexels-photo-5791650.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Don Julio 1942 750ml",
+            "itemDescription": "",
+            "itemPrice": "Botella $5,700.00"
+          },
+          {
+            "itemTitle": "1800 Cristalino",
+            "itemDescription": "",
+            "itemPrice": "Botella $350.00 <br /> Shot $110.00"
+          },
+          {
+            "itemTitle": "Don Julio 70 Anejo Cristalino 700ml",
+            "itemDescription": "",
+            "itemPrice": "Botella $2,100.00 <br /> Shot $120.00"
+          },
+          {
+            "itemTitle": "Patron Reposado 750ml",
+            "itemDescription": "",
+            "itemPrice": "Botella $1,350.00 <br /> Shot $95.00"
+          },
+          {
+            "itemTitle": "Don Julio Blanco 700ml",
+            "itemDescription": "",
+            "itemPrice": "Botella $1,400.00 <br /> Shot $100.00"
+          },
+          {
+            "itemTitle": "Maestro Dobel",
+            "itemDescription": "",
+            "itemPrice": "Botella $1,650.00 <br /> Shot $110.00"
+          },
+          {
+            "itemTitle": "Don Julio Reposado 700ml",
+            "itemDescription": "",
+            "itemPrice": "Botella $1,600.00 <br /> Shot $110.00"
+          },
+          {
+            "itemTitle": "Patron Silver 750ml",
+            "itemDescription": "",
+            "itemPrice": "Botella $1,200.00 <br /> Shot $85.00"
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Mezcal",
+        "sectionDescription": "",
+        "cover": "https://images.pexels.com/photos/1283219/pexels-photo-1283219.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "400 Conejos Joven",
+            "itemDescription": "",
+            "itemPrice": "Botella $950.00 <br /> Trago $95.00"
+          },
+          {
+            "itemTitle": "Gusano Rojo",
+            "itemDescription": "",
+            "itemPrice": "Botella $650.00 <br /> Trago $80.00"
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Champagne",
+        "sectionDescription": "",
+        "cover": "https://images.pexels.com/photos/5379876/pexels-photo-5379876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "CH Moet Ice 750ml",
+            "itemDescription": "",
+            "itemPrice": "Botella $2,950.00"
+          },
+          {
+            "itemTitle": "CH Moet Brut 750ml",
+            "itemDescription": "",
+            "itemPrice": "Botella $2,250.00"
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Ginebra",
+        "sectionDescription": "",
+        "cover": "https://images.pexels.com/photos/613182/pexels-photo-613182.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Hendrix",
+            "itemDescription": "",
+            "itemPrice": "Botella $1,440.00 <br /> Trago $110.00"
+          },
+          {
+            "itemTitle": "Bombay",
+            "itemDescription": "",
+            "itemPrice": "Botella $1,140.00 <br /> Trago $95.00"
+          },
+          {
+            "itemTitle": "Tanqueray",
+            "itemDescription": "",
+            "itemPrice": "Botella $900.00 <br /> Trago $90.00"
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Vodka",
+        "sectionDescription": "",
+        "cover": "https://images.pexels.com/photos/209590/pexels-photo-209590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Stolichnaya",
+            "itemDescription": "",
+            "itemPrice": "Botella $490.00 <br /> Trago $80.00"
+          },
+          {
+            "itemTitle": "Absolut Azul 750ml",
+            "itemDescription": "",
+            "itemPrice": "Botella $530.00 <br /> Trago $80.00"
+          },
+          {
+            "itemTitle": "Smirnoff 750ml",
+            "itemDescription": "",
+            "itemPrice": "Botella $550.00 <br /> Trago $85.00"
+          },
+          {
+            "itemTitle": "Absolut",
+            "itemDescription": "",
+            "itemPrice": "Botella $700.00 <br /> Trago $90.00"
+          },
+          {
+            "itemTitle": "Grey Goose",
+            "itemDescription": "",
+            "itemPrice": "Botella $1,600.00 <br /> Trago $100.00"
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Whisky",
+        "sectionDescription": "",
+        "cover": "https://images.pexels.com/photos/6638905/pexels-photo-6638905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Johnnie Walker Red Label",
+            "itemDescription": "",
+            "itemPrice": "Botella $490.00 <br /> Trago $80.00"
+          },
+          {
+            "itemTitle": "Macallan",
+            "itemDescription": "",
+            "itemPrice": "Botella $2,400.00 <br /> Trago $220.00"
+          },
+          {
+            "itemTitle": "Jack Daniels",
+            "itemDescription": "",
+            "itemPrice": "Botella $1,100.00 <br /> Trago $90.00"
+          },
+          {
+            "itemTitle": "Buchanans 12Y Deluxe 750ml",
+            "itemDescription": "",
+            "itemPrice": "Botella $1,800.00 <br /> Trago $130.00"
+          },
+          {
+            "itemTitle": "Chivas Regal",
+            "itemDescription": "",
+            "itemPrice": "Botella $1,600.00 <br /> Trago $130.00"
+          },
+          {
+            "itemTitle": "Buchanans 18Y 750ml",
+            "itemDescription": "",
+            "itemPrice": "Botella $3,450.00 <br /> Trago $220.00"
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Cognac",
+        "sectionDescription": "",
+        "cover": "https://images.pexels.com/photos/5947025/pexels-photo-5947025.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Henessy",
+            "itemDescription": "",
+            "itemPrice": "Botella $1,900.00 <br /> Trago $130.00"
+          },
+          {
+            "itemTitle": "Martell VSOP",
+            "itemDescription": "",
+            "itemPrice": "Botella $1,940.00 <br /> Trago $130.00"
+          },
+          {
+            "itemTitle": "Remy Martin",
+            "itemDescription": "",
+            "itemPrice": "Botella $2,200.00 <br /> Trago $140.00"
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Ron",
+        "sectionDescription": "",
+        "cover": "https://images.pexels.com/photos/2360578/pexels-photo-2360578.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Bacardi Blanco",
+            "itemDescription": "",
+            "itemPrice": "Botella $650.00 <br /> Trago $90.00"
+          },
+          {
+            "itemTitle": "Captain Morgan",
+            "itemDescription": "",
+            "itemPrice": "Botella $550.00 <br /> Trago $90.00"
+          },
+          {
+            "itemTitle": "Zacapa Solera",
+            "itemDescription": "",
+            "itemPrice": "Botella $2,200.00 <br /> Trago $140.00"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "category": "mixologia",
+    "cover": "https://geqogioegammsiznrksj.supabase.co/storage/v1/object/sign/menu/categories/mixologia.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtZW51L2NhdGVnb3JpZXMvbWl4b2xvZ2lhLmpwZyIsImlhdCI6MTY2MTE5MTM0MSwiZXhwIjoxOTc2NTUxMzQxfQ.UCxNkk5uXTOsGyQHvGsxByuhXd8_md6gZguvSjkePjo&t=2022-08-22T18%3A02%3A21.729Z",
+    "sections": [
+      {
+        "sectionTitle": "Menu Brunette",
+        "sectionDescription": "",
+        "cover": "https://images.pexels.com/photos/12336029/pexels-photo-12336029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Candela",
+            "itemDescription": "Mezcal + Jamaica & Maracuya + sal de chiles ahumados",
+            "itemPrice": "$160.00"
+          },
+          {
+            "itemTitle": "De piña pa'la niña",
+            "itemDescription": "Vodka + Horchata de piña + bitters + coco tostado",
+            "itemPrice": "$160.00"
+          },
+          {
+            "itemTitle": "Brunette & Tonic",
+            "itemDescription": "Gin + Jugo de citricos + Lemongrass + Tonic top + Perfume Herbal",
+            "itemPrice": "$160.00 "
+          },
+          {
+            "itemTitle": "Dandy",
+            "itemDescription": "Whisky + Ginger Ale + Angostura + Orange Zest",
+            "itemPrice": "$180.00 "
+          },
+          {
+            "itemTitle": "Kinky Mezcal",
+            "itemDescription": "Mezcal + Compota de Guayaba + Campari + Top Mineral",
+            "itemPrice": "$180.00 "
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Drinks",
+        "sectionDescription": "",
+        "cover": "https://images.pexels.com/photos/110472/pexels-photo-110472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "sectionItems": [
+          {
+            "itemTitle": "Sangria preparada",
+            "itemDescription": "",
+            "itemPrice": "$95.00"
+          },
+          {
+            "itemTitle": "Sex on the beach",
+            "itemDescription": "",
+            "itemPrice": "$90.00"
+          },
+          {
+            "itemTitle": "Tequila sunrise",
+            "itemDescription": "",
+            "itemPrice": "$90.00"
+          },
+          {
+            "itemTitle": "Long island",
+            "itemDescription": "",
+            "itemPrice": "$95.00"
+          },
+          {
+            "itemTitle": "Carajillo",
+            "itemDescription": "",
+            "itemPrice": "$130.00"
+          },
+          {
+            "itemTitle": "Mojito",
+            "itemDescription": "",
+            "itemPrice": "$130.00"
+          },
+          {
+            "itemTitle": "Mimosas",
+            "itemDescription": "",
+            "itemPrice": "$110.00"
+          },
+          {
+            "itemTitle": "Cuba",
+            "itemDescription": "",
+            "itemPrice": "$90.00"
+          },
+          {
+            "itemTitle": "Martini",
+            "itemDescription": "",
+            "itemPrice": "$90.00"
+          },
+          {
+            "itemTitle": "Margarita",
+            "itemDescription": "",
+            "itemPrice": "$90.00"
+          },
+          {
+            "itemTitle": "Paloma",
+            "itemDescription": "",
+            "itemPrice": "$85.00"
+          },
+          {
+            "itemTitle": "Pina colada",
+            "itemDescription": "",
+            "itemPrice": "$95.00"
+          },
+          {
+            "itemTitle": "Vaso michelado",
+            "itemDescription": "",
+            "itemPrice": "$30.00"
+          },
+          {
+            "itemTitle": "Vaso cubano",
+            "itemDescription": "",
+            "itemPrice": "$30.00"
+          },
+          {
+            "itemTitle": "Vaso chabela",
+            "itemDescription": "",
+            "itemPrice": "$30.00"
+          },
+          {
+            "itemTitle": "Clamato sin alcohol",
+            "itemDescription": "",
+            "itemPrice": "$60.00"
+          },
+          {
+            "itemTitle": "Topo Chico hard seltzer",
+            "itemDescription": "",
+            "itemPrice": "$55.00"
+          },
+          {
+            "itemTitle": "Jagermeister",
+            "itemDescription": "",
+            "itemPrice": "$90.00"
+          },
+          {
+            "itemTitle": "Baileys irish cream",
+            "itemDescription": "",
+            "itemPrice": "$85.00"
+          },
+          {
+            "itemTitle": "Kahlúa",
+            "itemDescription": "",
+            "itemPrice": "$85.00"
+          },
+          {
+            "itemTitle": "Frangelico",
+            "itemDescription": "",
+            "itemPrice": "$95.00"
+          }
+        ]
+      }
+    ]
+  }
+]

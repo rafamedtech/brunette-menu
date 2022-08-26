@@ -6,17 +6,14 @@ const props = defineProps({
   },
 });
 
-const categoryTitle = computed(() => {
-  return props.category.title.charAt(0).toUpperCase() + props.category.title.slice(1);
-});
+// const categoryTitle = computed(() => {
+//   return props.category.title.charAt(0).toUpperCase() + props.category.title.slice(1);
+// });
 </script>
 
 <template>
-  <nuxt-link
-    :to="{ path: `/${category.title.toLowerCase()}` }"
-    class="h-fit w-full text-center"
-    to="/category"
-  >
+  <nuxt-link :to="{ path: category.category }" class="h-fit w-full text-center">
+    <!-- <nuxt-link :to="{ path: `/${category.title}` }" class="h-fit w-full text-center" to="/category"> -->
     <figure class="card h-64 shadow-xl">
       <img
         :src="category.cover"
@@ -24,6 +21,6 @@ const categoryTitle = computed(() => {
         alt="item picture"
       />
     </figure>
-    <span class="text-lg uppercase text-accent">{{ categoryTitle }}</span>
+    <span class="text-lg uppercase text-accent">{{ category.category }}</span>
   </nuxt-link>
 </template>

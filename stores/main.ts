@@ -1,4 +1,5 @@
 import { defineStore } from 'pinia';
+import menu_es from '@/menu-es.json';
 
 export const useMainStore = defineStore('main', {
   state: () => ({
@@ -11,22 +12,26 @@ export const useMainStore = defineStore('main', {
 
   getters: {
     getByCategory: (state) => {
-      return (id: string) => state.menu.find((category) => category.attributes.title === id);
+      return (id: string) => state.menu.find((category) => category.category === id);
     },
+    // getByCategory: (state) => {
+    //   return (id: string) => state.menu.find((category) => category.attributes.title === id);
+    // },
   },
 
   actions: {
     async fetch() {
       try {
         // Fetching menu and save it in state
-        const client = useStrapiClient();
-        const { data: menu } = await client('categories', {
-          params: { 'populate[sections][populate]': '*' },
-        });
-        this.menu = menu;
+        // const client = useStrapiClient();
+        // const { data: menu } = await client('categories', {
+        //   params: { 'populate[sections][populate]': '*' },
+        // });
+        this.menu = menu_es;
+        // console.log(this.menu);
 
         // Fetching events and save them in state
-        // const { events } = await $fetch('/api/events');
+        // const { data: events } = await client('events');
         // this.events = events;
       } catch (error) {
         console.error(error);

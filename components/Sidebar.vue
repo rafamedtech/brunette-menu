@@ -15,7 +15,7 @@
       <li><p class="mx-auto text-center font-bold text-accent">(664) 974 6842</p></li>
       <li>
         <div class="flex flex-col text-center">
-          <h4 class="font-handlee text-2xl uppercase">Horario</h4>
+          <h4 class="font-handlee text-2xl uppercase text-primary">Horario</h4>
           <article>
             <p class="text-lg font-bold uppercase text-accent">Martes - Jueves</p>
             <span>9:00 AM - 10:00 PM</span>
@@ -30,7 +30,7 @@
           </article>
         </div>
       </li>
-      <span class="mt-20 text-center">Created by Rafamed</span>
+      <!-- <span class="mt-20 text-center">Created by Rafamed</span> -->
     </ul>
   </div>
 </template>
