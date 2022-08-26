@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia';
 import menu_es from '@/menu-es.json';
+import myEvents from '@/events.json';
 
 export const useMainStore = defineStore('main', {
   state: () => ({
@@ -33,6 +34,7 @@ export const useMainStore = defineStore('main', {
         // Fetching events and save them in state
         // const { data: events } = await client('events');
         // this.events = events;
+        this.events = myEvents;
       } catch (error) {
         console.error(error);
       }

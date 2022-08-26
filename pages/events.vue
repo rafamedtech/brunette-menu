@@ -24,9 +24,12 @@ definePageMeta({
     </section>
 
     <section>
-      <div v-for="{ id, attributes } in events" :key="id" class="card p-4">
-        <img class="rounded-2xl" :src="attributes.cover" alt="" />
+      <div v-for="{ id, cover } in events" :key="id" class="card p-4">
+        <img class="rounded-2xl" :src="cover" alt="" />
       </div>
+      <!-- <div v-for="{ id, attributes } in events" :key="id" class="card p-4">
+        <img class="rounded-2xl" :src="attributes.cover" alt="" />
+      </div> -->
     </section>
   </main>
 </template>
