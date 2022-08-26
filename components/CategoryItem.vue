@@ -21,6 +21,6 @@ const props = defineProps({
         alt="item picture"
       />
     </figure>
-    <span class="text-lg uppercase text-accent">{{ category.category }}</span>
+    <span class="text-lg uppercase text-primary">{{ category.category }}</span>
   </nuxt-link>
 </template>
