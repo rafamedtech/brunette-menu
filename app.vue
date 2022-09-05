@@ -8,6 +8,9 @@ await store.fetch();
 const { modal, isLoading } = storeToRefs(store);
 
 useHead({
+  htmlAttrs: {
+    lang: 'es',
+  },
   link: {
     rel: 'stylesheet',
     href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css',
