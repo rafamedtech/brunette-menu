@@ -2,16 +2,16 @@
   {
     "id": 1,
     "title": "Noche de boleros",
-    "cover": "../assets/images/boleros.png"
+    "cover": "https://res.cloudinary.com/rafamed-dev/image/upload/v1661894981/boleros_3118e2693b.png?updated_at=2022-08-30T21:29:42.328Z"
   },
   {
     "id": 2,
     "title": "Feliz cumpleaños",
-    "cover": "../assets/images/birthday.png"
+    "cover": "https://res.cloudinary.com/rafamed-dev/image/upload/v1662401587/events/birthday_sbgjzb.png"
   },
   {
     "id": 3,
     "title": "Dia del padre",
-    "cover": "../assets/images/fathers.jpg"
+    "cover": "https://res.cloudinary.com/rafamed-dev/image/upload/v1662401587/events/fathers_tevqoo.jpg"
   }
 ]
