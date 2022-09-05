@@ -5,7 +5,7 @@ const store = useMainStore();
 const { params } = useRoute();
 
 store.$patch({
-  language: 'es',
+  language: 'en',
 });
 
 // Get category title
@@ -15,7 +15,7 @@ const categoryTitle = computed(() => {
 });
 
 // Current category and sections
-const category = store.getByCategory(params.category);
+const category = store.getByCategoryEn(params.category);
 // const sections = category.attributes.sections.data.sort((a, b) => {
 //   return a.id - b.id;
 // });

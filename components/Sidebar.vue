@@ -1,3 +1,11 @@
+<script setup>
+import { useMainStore } from '@/stores/main';
+import { storeToRefs } from 'pinia';
+
+const store = useMainStore();
+const { language } = storeToRefs(store);
+</script>
+
 <template>
   <div class="drawer-side">
     <label for="my-drawer-3" class="drawer-overlay"></label>
@@ -15,17 +23,25 @@
       <li><p class="mx-auto text-center font-bold text-accent">(664) 974 6842</p></li>
       <li>
         <div class="flex flex-col text-center">
-          <h4 class="font-handlee text-2xl uppercase text-primary">Horario</h4>
+          <h4 class="font-handlee text-2xl uppercase text-primary">
+            {{ language === 'es' ? 'Horario' : 'Schedule' }}
+          </h4>
           <article>
-            <p class="text-lg font-bold uppercase text-accent">Martes - Jueves</p>
+            <p class="text-lg font-bold uppercase text-accent">
+              {{ language === 'es' ? 'Martes - Jueves' : 'Tuesday - Thursday' }}
+            </p>
             <span>9:00 AM - 10:00 PM</span>
           </article>
           <article>
-            <p class="text-lg font-bold uppercase text-accent">Viernes - Sabado</p>
+            <p class="text-lg font-bold uppercase text-accent">
+              {{ language === 'es' ? 'Viernes - Sabado' : 'Friday - Saturday' }}
+            </p>
             <span>9:00 AM - 12:00 AM</span>
           </article>
           <article>
-            <p class="text-lg font-bold uppercase text-accent">Domingo</p>
+            <p class="text-lg font-bold uppercase text-accent">
+              {{ language === 'es' ? 'Domingo' : 'Sunday' }}
+            </p>
             <span>8:00 AM - 6:00 PM</span>
           </article>
         </div>

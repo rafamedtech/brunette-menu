@@ -3,11 +3,18 @@ import { useMainStore } from '@/stores/main';
 import { storeToRefs } from 'pinia';
 
 const store = useMainStore();
-const { menu, language } = storeToRefs(store);
+const { menu_en, language } = storeToRefs(store);
+
 store.$patch({
+  language: 'en',
   isLoading: true,
-  language: 'es',
 });
+
+setTimeout(() => {
+  store.$patch({
+    isLoading: false,
+  });
+}, 2000);
 
 useHead({
   title: 'Brunette Menu',
@@ -31,11 +38,11 @@ definePageMeta({
 <template>
   <main>
     <h1 class="px-2 text-center font-handlee text-2xl uppercase text-accent lg:px-32">
-      Menu en español
+      Menu in english
     </h1>
     <section class="grid grid-cols-2 gap-4 py-4 px-2 lg:grid-cols-3 lg:px-32">
       <Suspense>
-        <CategoryItem v-for="category in menu" :category="category" :key="category.category" />
+        <CategoryItem v-for="category in menu_en" :category="category" :key="category.category" />
       </Suspense>
     </section>
   </main>

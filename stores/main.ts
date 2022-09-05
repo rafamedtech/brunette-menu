@@ -1,6 +1,8 @@
 import { defineStore } from 'pinia';
-import menu_es from '@/menu-es.json';
-import myEvents from '@/events.json';
+import es from '@/data/es.json';
+import en from '@/data/en.json';
+import events from '@/data/events.json';
+import { Category, Section, Item } from '@/types/menu';
 
 export const useMainStore = defineStore('main', {
   state: () => ({
@@ -8,12 +10,16 @@ export const useMainStore = defineStore('main', {
     isLoading: false,
     language: 'es',
     menu: [],
+    menu_en: [],
     events: [],
   }),
 
   getters: {
     getByCategory: (state) => {
-      return (id: string) => state.menu.find((category) => category.category === id);
+      return (id: string) => state.menu.find((category: Category) => category.title === id);
+    },
+    getByCategoryEn: (state) => {
+      return (id: string) => state.menu_en.find((category: Category) => category.title === id);
     },
     // getByCategory: (state) => {
     //   return (id: string) => state.menu.find((category) => category.attributes.title === id);
@@ -24,18 +30,20 @@ export const useMainStore = defineStore('main', {
     async fetch() {
       try {
         // Fetching menu and save it in state
-        // const client = useStrapiClient();
-        // const { data: menu } = await client('categories', {
-        //   params: { 'populate[sections][populate]': '*' },
+        // const { find } = useStrapi4();
+        // const { data: menu } = await find('categories', {
+        //   populate: ['sections.items', 'sections.cover', 'cover'],
+        //   sort: 'id:asc',
         // });
-        this.menu = menu_es;
-        // console.log(this.menu);
+        this.menu = es;
+        this.menu_en = en;
 
         // Fetching events and save them in state
-        // const { data: events } = await client('events');
-        // this.events = events;
-        this.events = myEvents;
-      } catch (error) {
+        // const { data: events } = await find('events', {
+        //   populate: '*',
+        // });
+        this.events = events;
+      } catch (error: any) {
         console.error(error);
       }
     },

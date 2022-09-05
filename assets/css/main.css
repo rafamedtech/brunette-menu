@@ -19,7 +19,7 @@
   }
 
   main {
-    @apply mb-20;
+    @apply mb-20 lg:mb-0;
   }
 
   .custom-banner {

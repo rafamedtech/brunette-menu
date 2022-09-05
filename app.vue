@@ -16,7 +16,7 @@ useHead({
 </script>
 
 <template>
-  <section class="relative mb-20">
+  <section class="relative mb-20 lg:mb-0">
     <AppHeader>
       <NuxtPage />
     </AppHeader>

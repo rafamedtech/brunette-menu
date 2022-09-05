@@ -1,4 +1,10 @@
 <script setup>
+import { useMainStore } from '@/stores/main';
+import { storeToRefs } from 'pinia';
+
+const store = useMainStore();
+const { language } = storeToRefs(store);
+
 if (process.client) {
   const showMenu = () => {
     if (window.scrollY > 50) {
@@ -20,12 +26,12 @@ const scrollToTop = () => {
 </script>
 
 <template>
-  <li v-show="showButton" class="w-fit" key="4">
+  <li v-show="showButton" class="w-fit">
     <button
       @click="scrollToTop"
-      class="flex flex-col gap-0 p-0 focus:bg-transparent active:bg-transparent active:text-primary"
+      class="fflex flex-col items-center gap-0 p-0 focus:bg-transparent active:text-primary"
     >
-      <i class="fa-solid fa-chevron-up text-xl"></i> Arriba
+      <i class="fa-solid fa-chevron-up text-xl"></i> {{ language === 'es' ? 'Arriba' : 'Top' }}
     </button>
   </li>
 </template>

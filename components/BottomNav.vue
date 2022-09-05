@@ -1,3 +1,11 @@
+<script setup>
+import { useMainStore } from '@/stores/main';
+import { storeToRefs } from 'pinia';
+
+const store = useMainStore();
+const { language } = storeToRefs(store);
+</script>
+
 <template>
   <div class="flex w-screen justify-center lg:hidden">
     <transition-group
@@ -7,24 +15,27 @@
     >
       <li class="w-fit justify-center" key="1">
         <nuxt-link
-          to="/"
+          :to="{ path: language === 'es' ? '/' : '/en' }"
           class="flex flex-col items-center gap-0 p-0 focus:bg-transparent active:text-primary"
-          ><i class="fa-solid fa-house text-xl"></i> Inicio</nuxt-link
+          ><i class="fa-solid fa-house text-xl"></i>
+          {{ language === 'es' ? 'Inicio' : 'Home' }}</nuxt-link
         >
       </li>
       <li class="w-fit justify-center" key="2">
         <nuxt-link
           :to="{ name: 'events' }"
           class="flex flex-col items-center gap-0 p-0 focus:bg-transparent active:text-primary"
-          ><i class="fa-solid fa-calendar-days text-xl"></i> Eventos</nuxt-link
-        >
+          ><i class="fa-solid fa-calendar-days text-xl"></i>
+          {{ language === 'es' ? 'Eventos' : 'Events' }}
+        </nuxt-link>
       </li>
       <li class="w-fit justify-center" key="3">
         <nuxt-link
           :to="{ name: 'survey' }"
           class="flex flex-col items-center gap-0 p-0 focus:bg-transparent active:text-primary"
-          ><i class="fa-solid fa-square-poll-horizontal text-xl"></i> Encuesta</nuxt-link
-        >
+          ><i class="fa-solid fa-square-poll-horizontal text-xl"></i
+          >{{ language === 'es' ? 'Encuesta' : 'Survey' }}
+        </nuxt-link>
       </li>
       <ScrollToTop key="4" />
     </transition-group>

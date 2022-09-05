@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Noche de boleros",
+    "cover": "../assets/images/boleros.png"
+  },
+  {
+    "id": 2,
+    "title": "Feliz cumpleaños",
+    "cover": "../assets/images/birthday.png"
+  },
+  {
+    "id": 3,
+    "title": "Dia del padre",
+    "cover": "../assets/images/fathers.jpg"
+  }
+]

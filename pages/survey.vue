@@ -38,9 +38,9 @@ definePageMeta({
       <h1 class="mx-auto px-2 text-center font-handlee text-4xl text-accent lg:px-32">Encuesta</h1>
     </section>
 
-    <section>
+    <section class="lg:mt-8">
       <div class="hero">
-        <div class="hero-content flex-col lg:flex-row-reverse">
+        <div class="hero-content flex-col lg:flex-row">
           <div class="text-center lg:text-left">
             <h1 class="text-2xl text-primary">Por favor, ayudanos con tu opinion.</h1>
             <p class="py-6">Con tus comentarios, podemos mejorar nuestros productos y servicios.</p>

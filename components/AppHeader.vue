@@ -3,6 +3,7 @@ import { useMainStore } from '@/stores/main';
 import { storeToRefs } from 'pinia';
 
 const store = useMainStore();
+const route = useRoute();
 const { language } = storeToRefs(store);
 
 const changeLanguage = () => {
@@ -44,30 +45,43 @@ const changeLanguage = () => {
         </div>
 
         <!-- Logo -->
-        <nuxt-link to="/" class="text-2xl text-neutral-content"
-          ><img class="h-14" src="@/assets/images/logo1.png" alt="logo"
-        /></nuxt-link>
+        <figure class="text-2xl text-neutral-content">
+          <img class="h-14" src="@/assets/images/logo1.png" alt="logo" />
+        </figure>
 
         <section>
           <!-- Language switch -->
-          <label
+
+          <!-- <label for="my-modal" class="modal-button btn">open modal</label> -->
+
+          <!-- Desktop navbar -->
+          <div class="hidden flex-none lg:block">
+            <ul class="menu menu-horizontal">
+              <li><nuxt-link :to="{ path: route.path === '/' ? '/en' : '/' }">Menu</nuxt-link></li>
+              <li><nuxt-link :to="{ name: 'events' }">Eventos</nuxt-link></li>
+              <li><nuxt-link :to="{ name: 'survey' }">Encuesta</nuxt-link></li>
+            </ul>
+          </div>
+
+          <nuxt-link
+            class="btn btn-accent h-fit flex-col px-2 text-base-100 opacity-0 transition-all duration-500 lg:flex-row lg:gap-2"
+            :class="{
+              'opacity-100 transition-all duration-700': route.path === '/' || route.path === '/en',
+            }"
+            :to="{ path: route.path === '/' ? '/en' : '/' }"
+          >
+            <i class="fa-solid fa-language text-lg"></i>
+            <span v-if="route.path === '/'" class="text-xs">EN</span>
+            <span v-if="route.path === '/en'" class="text-xs">ES</span>
+          </nuxt-link>
+          <!-- <label
             for="my-modal"
             @click="changeLanguage"
             class="btn btn-accent h-fit flex-col px-2 text-base-100 lg:flex-row lg:gap-2"
           >
             <i class="fa-solid fa-language text-lg"></i>
             <span class="text-xs">{{ language }}</span>
-          </label>
-          <!-- <label for="my-modal" class="modal-button btn">open modal</label> -->
-
-          <!-- Desktop navbar -->
-          <div class="hidden flex-none lg:block">
-            <ul class="menu menu-horizontal">
-              <li><nuxt-link to="/">Menu</nuxt-link></li>
-              <li><nuxt-link :to="{ name: 'events' }">Eventos</nuxt-link></li>
-              <li><nuxt-link :to="{ name: 'survey' }">Encuesta</nuxt-link></li>
-            </ul>
-          </div>
+          </label> -->
         </section>
       </nav>
 
