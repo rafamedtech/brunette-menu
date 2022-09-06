@@ -30,9 +30,8 @@ definePageMeta({
 
 <template>
   <main>
-    <h1 class="px-2 text-center font-handlee text-2xl uppercase text-accent lg:px-32">
-      Menu en español
-    </h1>
+    <h1 class="px-2 text-center font-handlee text-2xl uppercase text-accent lg:px-32">Menu</h1>
+    <span class="mx-auto block w-fit text-xs uppercase text-primary">(español)</span>
     <section class="grid grid-cols-2 gap-4 py-4 px-2 lg:grid-cols-3 lg:px-32">
       <Suspense>
         <CategoryItem v-for="category in menu" :category="category" :key="category.category" />
