@@ -24,7 +24,7 @@ const { language } = storeToRefs(store);
       <li>
         <div class="flex flex-col text-center">
           <h4 class="font-handlee text-2xl uppercase text-primary">
-            {{ language === 'es' ? 'Horario' : 'Schedule' }}
+            {{ language === 'es' ? 'Horario' : 'Opening hours' }}
           </h4>
           <article>
             <p class="text-lg font-bold uppercase text-accent">
